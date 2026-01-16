@@ -28,6 +28,7 @@ const HomeRootLayout = () => {
 				name="search"
 				options={{
 					title: "Search",
+					headerShown: true,
 					tabBarIcon: ({ color }) => (
 						<Feather name="search" size={24} color={color} />
 					),
@@ -37,6 +38,7 @@ const HomeRootLayout = () => {
 				name="saved"
 				options={{
 					title: "Saved",
+					headerShown: true,
 					tabBarIcon: ({ color }) => (
 						<EvilIcons name="heart" size={27} color={color} />
 					),
@@ -46,6 +48,7 @@ const HomeRootLayout = () => {
 				name="inbox"
 				options={{
 					title: "Inbox",
+					headerShown: true,
 					tabBarIcon: ({ color }) => (
 						<Ionicons name="chatbubbles-outline" size={24} color={color} />
 					),
